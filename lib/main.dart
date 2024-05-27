@@ -97,7 +97,7 @@ class CustomCard extends StatelessWidget {
               fontSize: 14,
               overflow: TextOverflow.ellipsis,
             ),
-            maxLines: 3,
+            maxLines: 4,
           ),
           const SizedBox(height: 20),
           const Row(
@@ -133,7 +133,7 @@ class CustomCard extends StatelessWidget {
 
   Widget _buildTag(String text) {
     return Container(
-      constraints: const BoxConstraints(maxWidth: 80),
+      constraints: const BoxConstraints(maxWidth: 100),
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
         color: Colors.black,
